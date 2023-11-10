@@ -1,0 +1,10 @@
+{
+    {
+        "id": 1,
+        "instiution": "University of Cincinnati Blue Ash College",
+        "study": "Liberal Arts",
+        "dateStarted" : "2008",
+        "dateFinished" : "2013",
+        "description": "Liberal Arts Coursework"
+    }
+}

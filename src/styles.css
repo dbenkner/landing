@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.nav {
+    background-color: darkgray;
+    width:100%;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+li.nav{
+    display: inline;
+}
+.navLink{
+    text-decoration: none;
+    margin:0px 10px 10px 0px;
+    font-size: 1.5em;
+    color:black;
+    padding:0px;
+}
+.navLink:hover{
+    background-color: rgb(88, 88, 88);
+    color:white;
+    margin:0px 10px 10px 0px;
+    padding:0px;
+}
+body {
+    width: 100%;
+    margin:0;
+    background-color: black;
+    color:white;
+}
+.wrapper {
+    
+}
+.job {
+    
+}
