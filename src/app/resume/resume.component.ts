@@ -3,12 +3,12 @@ import { Job } from './job';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ResumeService } from './resume.service';
+import { Education } from './education.class';
 
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
-  styles: [
-  ]
+  styles: []
 })
 export class ResumeComponent {
   jobs:Job[] = [
@@ -20,10 +20,11 @@ export class ResumeComponent {
   ];
   url: string = '/assets/skills.json';
   skills:any;
+  education:Education[] = [];
   constructor(private http: HttpClient,
     private resumeSvc: ResumeService) {}
   ngOnInit() {
-    this.resumeSvc.getJson().subscribe(
+    this.resumeSvc.getSkills().subscribe(
       res => {
         this.skills = Object.keys(res).map(a=>res[a]);
         console.log(this.skills);
@@ -32,5 +33,16 @@ export class ResumeComponent {
         }
       }
     );
+    this.resumeSvc.getEducation().subscribe(
+      {
+        next: (res) => {
+          this.education = res;
+          console.debug(this.education);
+        },
+        error: (err) => {
+          console.error(err);
+        }
+      }
+    )
   }
 }

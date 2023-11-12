@@ -1,4 +1,4 @@
-{
+[
     {
         "id": 1,
         "instiution": "University of Cincinnati Blue Ash College",
@@ -6,5 +6,13 @@
         "dateStarted" : "2008",
         "dateFinished" : "2013",
         "description": "Liberal Arts Coursework"
+    },
+    {
+        "id": 2,
+        "instiution": "Max Technical Training",
+        "study": "Full Stack Bootcamp",
+        "dateStarted" : "2023",
+        "dateFinished" : null, 
+        "description": "Successfully completed an intensive 423-hour Full Stack Software Developer course taught by an instruction team with 30+ years combined professional development experience."
     }
-}
+]
