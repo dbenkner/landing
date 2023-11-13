@@ -1,0 +1,24 @@
+[
+    {
+        "employer" : "Schoening Technology Group under contract for Luoxottica",
+        "title": "Technical Support Cordniator",
+        "location": "Cincinnati, Oh",
+        "dateStarted": "2022-09",
+        "dateEnded": "2023-06",
+        "jobDuties": ["Responsible for providing support for over 5000 luxottica sites", "Troubleshot various pieces of in-store technology: Oracle Xstore POS Systems",
+         "store networks/internet connectivity, telecommunications equipment, computer hardware / peripherals, internally and externally developed applications",
+        "Correctly recorded all incidents into ticketing system", "Gathered and processed users information via verbal communication and screen viewer software to properly resolve or escalate user issues",
+        "Successfully educated users on fixes and workarounds or set expectations for escalated issues"]
+    },
+    {
+        "employer" : "Startek",
+        "title": "Technical Support Representative",
+        "location": "Hamilton, Oh",
+        "dateStarted": "2019-01",
+        "dateEnded": "2022-08",
+        "jobDuties": ["Handled incoming customer calls for billing / technical concerns for a regional telecom fiberoptic/dsl internet service, tv and telephone service",
+    "Routinely ‘top five’ month-to-month with metrics: CSTAT scores, tickets resolved, repeat calls, and sales", "Assisted training department in mentoring and training new employees",
+    "Correctly recorded all customer interactions in CRM / ticketing system", "Participated in several UAT and Beta tests; passed feedback and errors to IT / development teams", "Correctly recorded all incidents into ticketing system",
+    "Handled repeat escalations resolving more complex customer concerns that had taken three or more attempts at contact to get resolved over a 10-day period" ]
+    }
+]
