@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { ResumeComponent } from './resume/resume.component';
 import { E404Component } from './e404/e404.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { E404Component } from './e404/e404.component';
     HomeComponent,
     MenuComponent,
     ResumeComponent,
-    E404Component
+    E404Component,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
