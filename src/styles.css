@@ -45,7 +45,12 @@ body {
     margin: 1em;
     width: 500px;
 }
-header{
+.images{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.header{
     padding:0px;
     margin:0px;
 }
