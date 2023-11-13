@@ -4,7 +4,7 @@
         <span *ngFor="let skill of skills"> {{skill}} | </span>
     </div>
     <h2 class="header">Experiance</h2>
-    <div  class="resumeSection" *ngFor="let job of jobs"><h3>{{job.employer}}</h3><p>{{job.title}} {{job.location}} {{job.dateStarted | date:'MM/YYYY'}} <span *ngIf="job.dateEnded">-{{job.dateEnded| date:'MM/YYYY'}}</span></p>
+    <div  class="resumeSection" *ngFor="let job of jobs"><h3>{{job.employer}}</h3><p>{{job.title}} {{job.location}} {{job.dateStarted | date:'MM/YYYY'}} <span *ngIf="job.dateEnded">- {{job.dateEnded| date:'MM/YYYY'}}</span></p>
         <ul><li *ngFor="let duty of job.jobDuties">{{duty}}</li></ul>
     </div>
         <h2 class="header">Education</h2>
